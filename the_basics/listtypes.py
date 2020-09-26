@@ -6,12 +6,5 @@
 # Para ver las funciones de python usamos dir(__builtins__)
 #---------------------------------------------------------------
 
-x = 10
-y = "10"
-z = 10.3
-
-sum1 = x + x
-sum2 = y + y 
-
-print(sum1,sum2)
-print(type(x), type(y), type(z))
+nota_estudiantes = [9.1, 6.0, 4.5]
+print(nota_estudiantes)
