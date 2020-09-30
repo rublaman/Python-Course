@@ -11,12 +11,12 @@
 nota_estudiantes = [9.1, 6.0, 4.5, 3.3, 10.0, 5,6, 0.2, 4]
 print(nota_estudiantes)
 
-# Imprimimos segundo item
-print("----Imprimimos segundo item----")
+# Imprime segundo item
+print("----Imprime segundo item----")
 print(nota_estudiantes[1])
 
-# Imprimimos usando index negativo
-print("----Imprimimos usando index negativo----")
+# Imprime usando index negativo
+print("----Imprime usando index negativo----")
 print(nota_estudiantes[-1])
 
 # Rango de indices
@@ -31,8 +31,8 @@ print("----Cambio de valor----")
 nota_estudiantes[2] = 8.0
 print(nota_estudiantes)
 
-# Imprimos todos los elemntos, uno por uno
-print("----Imprimos todos los elemntos, uno por uno----")
+# Imprime todos los elemntos, uno por uno
+print("----Imprime todos los elemntos, uno por uno----")
 for n in nota_estudiantes:
     print(n)
 
@@ -66,8 +66,8 @@ print("----Eliminar un index en especifico----")
 del nota_estudiantes[0]
 print(nota_estudiantes)
 
-# Eliminamos la lista 
-print("----Eliminamos la lista----")
+# Eliminar la lista 
+print("----Eliminar la lista----")
 del nota_estudiantes
 
 # Vaciar una lista
