@@ -12,4 +12,3 @@ print(notastupla[-1])
 print(notastupla[2:5])
 
 print(notastupla[-4:-1])
-
