@@ -9,11 +9,12 @@ notastupla2 = ("hola", "333", 75)
 print(notastupla)
 
 # Acceso a tuplas
+print("----Acceso a tuplas----")
 print(notastupla[1])
 
-# Imprime usando index negativo
+# Rango de indices
+print("----Rango de indices----")
 print(notastupla[-1])
-
 
 # Imprime usando un rango
 print(notastupla[2:5])
@@ -22,9 +23,11 @@ print(notastupla[2:5])
 print(notastupla[-4:-1])
 
 # Imprime todos los elemntos, uno por uno
+print("----Imprime todos los elemntos, uno por uno----")
 for n in notastupla:
     print(n)
 
 # Unir dos tuplas
+print("----Union de dos tuplas----")
 notastupla3 = notastupla +  notastupla2
 print(notastupla3)
