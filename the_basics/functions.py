@@ -34,3 +34,19 @@ print(suma(2,3))
 # El parametro **kwargs se usa para pasar de forma opcional a una funcion un numero de
 # variables de argumentos con nombre. El parametro **kwargs recibe los argumentos como
 # diccionario
+
+
+def default_param(a, b = 4, c = 7):
+    return a + b + c
+
+print(default_param(3))
+
+def outer(a):
+
+    def nested(b):
+        return b * a
+
+    a = nested(a)
+    return a
+
+print(outer(5))

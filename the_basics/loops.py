@@ -1,6 +1,8 @@
+# Rango de 2 a 10
 for i in range(2, 10):
     print(i)
 
+# Con la longitud de la cadena usando len()
 string = "Cadena de texto"
 for i in range(len(string)):
     print(i)
