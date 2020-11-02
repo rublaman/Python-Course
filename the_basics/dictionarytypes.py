@@ -3,9 +3,7 @@
 # dir(nombre_funcion). Si queremos conocer la información de los 
 # métodos usamos el comando help(nombre_funcion.metodo)
 #
-# Para ver las funciones de python usamos dir(__builtins__)
-# Las listas se crean usando [], los diccionarios con {} perrmitiendo
-# intendificar cada elemento (values) con una clave (keys).
+# Son desordenados, modificables e indexados
 #---------------------------------------------------------------------
 
 nota_estudiantes = {

@@ -31,3 +31,16 @@ for n in notastupla:
 print("----Union de dos tuplas----")
 notastupla3 = notastupla +  notastupla2
 print(notastupla3)
+
+# Al ser inmutable no podemos modificar el valor
+print("----Inmutabilidad----")
+tup = (1, "a", 10)
+try:
+    tup[2] = 2
+except Exception as e:
+    print(e)
+
+# Metodos
+print("----Metodos----")
+print("Valor maximo: ",max(notastupla), "valor minimo: ", min(notastupla))
+print("Longitud de la tupla ", len(notastupla))

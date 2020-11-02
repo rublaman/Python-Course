@@ -90,3 +90,8 @@ del nota_estudiantes3
 
 nota_estudiantes.extend(nota_estudiantes2)
 print(nota_estudiantes)
+
+# Metodos
+print("----Metodos----")
+print(list(map(lambda x: x*2, [1,2,3,4,5])))
+print(list(filter(lambda x: x < 4, [1, 2, 10, 3, 20, 5, 4])))

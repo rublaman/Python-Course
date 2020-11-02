@@ -42,3 +42,9 @@ colset1 = {"Ruben", "David", "Alberto"}
 colset2 = {123123, 7652, 9}
 colset3 = colset1.union(colset2)
 print(colset3)
+
+# Metodo difference() e intersection()
+set1 = {1,2,3,5}
+set2 = {1,2,3,4,5}
+print(set.intersection(set1, set2))
+print(set.difference(set2, set1))
