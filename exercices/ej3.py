@@ -1,3 +1,4 @@
+
 # No hay una variable c definida antes de realizar la comparacion
 
 a = 1
