@@ -1,7 +1,6 @@
 #---------------------------------------------------------------------
-# Los set es una coleccion desorneada y no indexada. Se escribe con {}
-# Al estar desordenada no podemos acceder a una posicion en concreto y
-# no pueden tener duplicados
+# Set es una coleccion desorneada y no indexada. Se escribe con {}
+# Al estar desordenada no podemos acceder a una posicion en concreto
 #---------------------------------------------------------------------
 
 colset = {"Ruben", "David", "Alberto"}
